@@ -1,0 +1,307 @@
+
+/*---------navbar items---------*/
+.container {
+    display: flex;
+    justify-content: flex-end; 
+    padding: 10px;
+}
+
+.links {
+    width: 1fr;
+    padding: 0px;
+    margin-left: 14px;   
+}
+
+
+#pflogo {
+    width: 30px;
+    height: 30px;
+    border-radius: 13px;
+    border: 1px #cacaca;
+    object-fit: cover;
+    margin-left: 5px;
+}
+
+
+#links1,#links2 {
+    margin-top: 7px;
+}
+#imghlinks {
+    text-decoration: none;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    margin-right: 21px;
+}
+#advhlinks{
+    text-decoration: none;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    font-style: normal;
+    vertical-align: baseline;
+}
+
+#hlinks {
+    text-decoration: none;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    font-style: normal;
+}
+#hlinks:hover {
+    text-decoration: underline;
+}
+#imghlinks:hover {
+    text-decoration: underline;
+}
+#advhlinks:hover {
+    text-decoration:underline ;
+    
+}
+/*----------google search logo and google images logo---------*/
+.gslogo,.gilogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 105px;
+}
+.gilogo {
+    position: relative;
+}
+
+#txtbenlogo {
+    position: absolute;
+    top: 176px;
+    bottom: 0;
+    right: 0;
+    left: 832px;
+    color: #4285f4;
+    font: 10px;
+    font-family:"Roboto" ;
+}
+
+/*--------search bar & search bar items-------*/
+.inputbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 35px;
+    position:relative;  
+}
+.searchbox {
+    width: 550px;
+    height: 45px;
+    border-radius:23px;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-right: 0px;
+    padding-left: 50px;
+    box-shadow: 3px 3px 9px #c6c1c1;
+    outline: none;
+    border: 1px solid #dddddd;   
+}
+
+
+/*taken from stackoverflow site to remove the cancel button appearing on searchbox*/
+input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    height: 1em;
+    width: 1em;
+    border-radius: 50em;
+    background: url(https://pro.fontawesome.com/releases/v5.10.0/svgs/solid/times-circle.svg) no-repeat 50% 50%;
+    background-size: contain;
+    opacity: 0;
+    pointer-events: none;
+  }
+
+/*-------all icons here------*/
+#dots9 {
+    width: 23px;   
+    margin-top: 5px;
+    margin-left: 13px;
+}
+
+#searchicon {
+    width: 21px;
+    position:absolute;
+    top: 12px;
+    bottom: 0;
+    left: 462px;
+    right: 0;   
+}
+#mic {
+    width: 23px;
+    position: absolute;
+    top: 12px;
+    bottom: 0;
+    left: 920px;
+    right: 0;   
+}
+#camera {
+    width: 23px;
+    position: absolute;
+    top: 12px;
+    bottom: 0;
+    left: 957px;
+    right: 0;   
+}
+
+#micimg {
+    width: 23px;
+    position: absolute;
+    top: 12px;
+    bottom: 0;
+    left: 883px;
+    right: 0;   
+}
+#cameraimg {
+    width: 23px;
+    position: absolute;
+    top: 12px;
+    bottom: 0;
+    left: 920px;
+    right: 0;   
+}
+#bluesearchicon {
+    width: 23px;
+    position: absolute;
+    top: 12px;
+    bottom: 0;
+    left: 957px;
+    right: 0;
+
+}
+
+
+/*---------google search & i'm feeling lucky--------*/
+#gsearch {
+    border: none;
+    position: absolute;
+    top: 80px;
+    left: 546px;
+    font: arial, sans-serif;
+    font-size: 14px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 3px;
+    background-color:#f8f9fa;
+    color: #3c4043;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+#lucky {
+    border: none;
+    position: absolute;
+    top: 80px;
+    font: arial, sans-serif;
+    font-size: 14px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 3px;
+    left: 701px;
+    background-color: #f8f9fa;
+    color: #3c4043;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+/*advanced search styles*/
+#googleadvlogo {
+    position: absolute;
+    top: 20px;
+    bottom: 0px;
+    right: 0px;
+    left: 18px;
+}
+
+#advredtxt {
+    font-family: Arial;
+    font-size: 22px;
+    color: #D90325;
+    padding: 0;
+    display: inline-block;
+    position: absolute;
+    top: 85px;
+    left: 35px;
+    margin: 5px 15px;
+}
+#borderbtm{
+    border: 1px solid #ededed;
+    margin-top:80px ;
+}
+#gadvhead {
+    border-bottom: 1px solid #ebebeb;
+    position: relative;
+}
+#head1,#head2 {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#head2 {
+    color: #777;
+}
+#box {
+    height: 1000px;
+    margin-left:35px;
+    margin-top:50px;
+    font-family:arial ;
+}
+.box-fields {
+    display: grid;
+    grid-template-columns: 210px 350px 350px;
+    grid-template-rows:  12px 12px 12px 12px;
+}
+.fields {
+    width: 315px;
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 22px;
+    
+}
+.labels {
+    margin-right: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.text {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: middle;
+    color: #555;
+}
+.sptxt {
+    font-family: monospace;
+}
+
+#advanced-search-button {
+    box-shadow: none;
+    background-color: #4d90fe;
+    background-image: -webkit-linear-gradient(top, #4d90fe, #4787ed);
+    border: 1px solid #3079ed;
+    color: #fff;
+    border-radius: 1px;
+    cursor: default;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    margin-right: 16px;
+    height: 27px;
+    line-height: 27px;
+    min-width: 54px;
+    outline: 0;
+    padding: 0 8px;
+    margin-top: 35px;
+}
